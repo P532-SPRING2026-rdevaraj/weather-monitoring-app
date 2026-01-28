@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "anqfSRTwnhQ=",
+  "dgSpecHash": "QwEftmjBTbw=",
   "success": true,
   "projectFilePath": "/Users/rohithgowdadevaraju/Desktop/OOSD/weather-monitoring-app/WeatherMonitoring.UI/WeatherMonitoring.UI.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "/Users/rohithgowdadevaraju/.nuget/packages/skiasharp.nativeassets.macos/2.88.9/skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
     "/Users/rohithgowdadevaraju/.nuget/packages/skiasharp.nativeassets.webassembly/2.88.9/skiasharp.nativeassets.webassembly.2.88.9.nupkg.sha512",
     "/Users/rohithgowdadevaraju/.nuget/packages/skiasharp.nativeassets.win32/2.88.9/skiasharp.nativeassets.win32.2.88.9.nupkg.sha512",
+    "/Users/rohithgowdadevaraju/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/Users/rohithgowdadevaraju/.nuget/packages/tmds.dbus.protocol/0.21.2/tmds.dbus.protocol.0.21.2.nupkg.sha512"
   ],
   "logs": []
