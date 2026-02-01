@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using WeatherMonitoring.UI.Displays;
+
 namespace WeatherMonitoring.UI.Models
 {
     public class WeatherData
@@ -5,5 +8,53 @@ namespace WeatherMonitoring.UI.Models
         public double Temperature { get; set; }
         public double Humidity { get; set; }
         public double Pressure { get; set; }
+
+        private List<IDisplayElement> displays;
+
+        public WeatherData()
+        {
+            displays = new List<IDisplayElement>();
+        }
+
+        public void RegisterDisplay(IDisplayElement display)
+        {
+            displays.Add(display);
+        }
+
+        public void RemoveDisplay(IDisplayElement display)
+        {
+            displays.Remove(display);
+        }
+
+        public void MeasurementsChanged()
+        {
+            foreach (var display in displays)
+            {
+                display.Update();
+            }
+        }
+
+        public double GetTemperature()
+        {
+            return Temperature;
+        }
+
+        public double GetHumidity()
+        {
+            return Humidity;
+        }
+
+        public double GetPressure()
+        {
+            return Pressure;
+        }
+
+        public void SetMeasurements(double temperature, double humidity, double pressure)
+        {
+            Temperature = temperature;
+            Humidity = humidity;
+            Pressure = pressure;
+            MeasurementsChanged();
+        }
     }
 }

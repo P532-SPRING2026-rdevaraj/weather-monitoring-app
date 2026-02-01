@@ -26,5 +26,11 @@ build_property.EnableCodeStyleSeverity =
 [/Users/rohithgowdadevaraju/Desktop/OOSD/weather-monitoring-app/WeatherMonitoring.UI/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/Users/rohithgowdadevaraju/Desktop/OOSD/weather-monitoring-app/WeatherMonitoring.UI/ForecastWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/Users/rohithgowdadevaraju/Desktop/OOSD/weather-monitoring-app/WeatherMonitoring.UI/MainWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/Users/rohithgowdadevaraju/Desktop/OOSD/weather-monitoring-app/WeatherMonitoring.UI/StatisticsWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

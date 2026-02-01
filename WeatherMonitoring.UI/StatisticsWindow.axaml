@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        x:Class="WeatherMonitoring.UI.StatisticsWindow"
+        Title="Statistics Display"
+        Width="360"
+        Height="200">
+
+    <StackPanel Margin="20" Spacing="8">
+
+        <TextBlock Text="Statistics Display"
+                FontSize="16"
+                FontWeight="Bold"
+                HorizontalAlignment="Center"/>
+
+        <TextBlock x:Name="AvgTempText"/>
+        <TextBlock x:Name="MaxTempText"/>
+        <TextBlock x:Name="MinTempText"/>
+
+    </StackPanel>
+
+
+
+</Window>
