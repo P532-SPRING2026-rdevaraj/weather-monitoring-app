@@ -6,7 +6,6 @@ namespace WeatherMonitoring.UI.Displays
     {
         private WeatherData weatherData;
 
-        // Callback to update StatisticsWindow UI
         public System.Action<double, double, double>? OnStatisticsUpdated;
 
         public StatisticsDisplay(WeatherData weatherData)
