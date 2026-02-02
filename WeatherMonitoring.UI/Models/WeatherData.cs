@@ -1,3 +1,49 @@
+
+/* using WeatherMonitoring.UI.Displays;
+
+namespace WeatherMonitoring.UI.Models
+{
+    public class WeatherData
+    {
+        private CurrentConditionsDisplay currentConditionsDisplay;
+        private StatisticsDisplay statisticsDisplay;
+        private ForecastDisplay forecastDisplay;
+
+        public double Temperature { get; private set; }
+        public double Humidity { get; private set; }
+        public double Pressure { get; private set; }
+
+        public WeatherData(
+            CurrentConditionsDisplay currentConditionsDisplay,
+            StatisticsDisplay statisticsDisplay,
+            ForecastDisplay forecastDisplay)
+        {
+            this.currentConditionsDisplay = currentConditionsDisplay;
+            this.statisticsDisplay = statisticsDisplay;
+            this.forecastDisplay = forecastDisplay;
+        }
+
+        public void SetMeasurements(double temperature, double humidity, double pressure)
+        {
+            Temperature = temperature;
+            Humidity = humidity;
+            Pressure = pressure;
+
+            UpdateDisplays();
+        }
+
+        private void UpdateDisplays()
+        {
+            currentConditionsDisplay.Update(Temperature, Humidity, Pressure);
+            statisticsDisplay.Update(Temperature, Humidity, Pressure);
+            forecastDisplay.Update(Temperature, Humidity, Pressure);
+        }
+    }
+}
+
+
+*/
+
 using System.Collections.Generic;
 using WeatherMonitoring.UI.Displays;
 
