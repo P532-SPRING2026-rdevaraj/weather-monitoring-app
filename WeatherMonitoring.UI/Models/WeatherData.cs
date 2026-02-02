@@ -85,6 +85,7 @@ namespace WeatherMonitoring.UI.Models
             return Temperature;
         }
 
+
         public double GetHumidity()
         {
             return Humidity;
@@ -94,7 +95,7 @@ namespace WeatherMonitoring.UI.Models
         {
             return Pressure;
         }
-
+          
         public void SetMeasurements(double temperature, double humidity, double pressure)
         {
             Temperature = temperature;
